@@ -1,0 +1,81 @@
+.HolyGrail,
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.HolyGrail-body {
+  display: flex;
+  flex: 1;
+}
+.HolyGrail-content {
+  flex: 1;
+}
+
+.HolyGrail-nav,
+.HolyGrail-ads {
+  /* 12em is the width of the columns */
+  flex: 0 0 12em;
+}
+
+.HolyGrail-nav {
+  /* put the nav on the left */
+  order: -1;
+}
+header {
+  display: flex;
+  background-color: rgb(202, 202, 202);
+  align-items: center;
+  font-size: 3rem;
+  height: 25vmin;
+  align-content: center;
+  justify-content: center;
+}
+nav {
+  background-color: rgb(202, 202, 202);
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+aside {
+  background-color: rgb(202, 202, 202);
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.button-color {
+  background-color: cyan;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.grid-graella {
+  display: grid;
+}
+.gran {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: auto;
+}
