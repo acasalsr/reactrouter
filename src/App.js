@@ -8,7 +8,7 @@ import Graella from "./pages/Graella";
 
 export default function App() {
   return (
-    <BrowserRouter basename={process.env.public_url}>
+    <BrowserRouter basename="/reactrouter">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
