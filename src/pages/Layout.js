@@ -4,7 +4,7 @@ export default function Layout() {
   return (
     <>
       <div class="HolyGrail">
-        <header>Exercics React - Andreu Casals</header>
+        <header>Exercicis React - Andreu Casals</header>
         <div class="HolyGrail-body">
           <main class="HolyGrail-content">
             <Outlet />
@@ -22,6 +22,12 @@ export default function Layout() {
               </li>
               <li>
                 <Link to="/graella">Graella</Link>
+              </li>
+              <li>
+                <Link to="/rellotge">Rellotge</Link>
+              </li>
+              <li>
+                <Link to="/acordio">Acordio</Link>
               </li>
             </ul>
           </nav>

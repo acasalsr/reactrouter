@@ -29,7 +29,7 @@ export default function Graella() {
               onClick={() => swapClass(imgActual)}
               className={fotoEmagatzemada === imgActual ? imgClass : ""}
               src={imgActual}
-              width="500px"
+              width="50%"
               height="100%"
               alt="moto"
             />
