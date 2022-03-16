@@ -7,6 +7,9 @@ import Toggle from "./pages/Toggle";
 import Graella from "./pages/Graella";
 import Rellotge from "./pages/Rellotge";
 import Acordio from "./pages/Acordio";
+import TresEnRatall from "./pages/TresEnRatlla";
+import Carrusel from "./pages/Carrusel";
+import Calculadora from "./pages/Calculadora";
 
 export default function App() {
   return (
@@ -19,6 +22,9 @@ export default function App() {
           <Route path="graella" element={<Graella />} />
           <Route path="rellotge" element={<Rellotge />} />
           <Route path="acordio" element={<Acordio />} />
+          <Route path="tres-en-ratlla" element={<TresEnRatall />} />
+          <Route path="carrusel" element={<Carrusel />} />
+          <Route path="calculadora" element={<Calculadora />} />
         </Route>
       </Routes>
     </BrowserRouter>

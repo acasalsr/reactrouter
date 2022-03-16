@@ -29,6 +29,15 @@ export default function Layout() {
               <li>
                 <Link to="/acordio">Acordio</Link>
               </li>
+              <li>
+                <Link to="/tres-en-ratlla">Tres en ratlla</Link>
+              </li>
+              <li>
+                <Link to="/carrusel">Carrusel</Link>
+              </li>
+              <li>
+                <Link to="/calculadora">Calculadora</Link>
+              </li>
             </ul>
           </nav>
           <aside class="HolyGrail-ads">ads</aside>
