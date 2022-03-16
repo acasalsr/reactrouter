@@ -10,6 +10,7 @@ import Acordio from "./pages/Acordio";
 import TresEnRatall from "./pages/TresEnRatlla";
 import Carrusel from "./pages/Carrusel";
 import Calculadora from "./pages/Calculadora";
+import ComptadorRedux from "./pages/comptadorRedux/ComptadorRedux"; 
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="tres-en-ratlla" element={<TresEnRatall />} />
           <Route path="carrusel" element={<Carrusel />} />
           <Route path="calculadora" element={<Calculadora />} />
+          <Route path="comptador-redux" element={<ComptadorRedux />} />
         </Route>
       </Routes>
     </BrowserRouter>

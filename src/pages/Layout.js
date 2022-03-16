@@ -38,6 +38,9 @@ export default function Layout() {
               <li>
                 <Link to="/calculadora">Calculadora</Link>
               </li>
+              <li>
+                <Link to="/comptador-redux">Comptador Redux</Link>
+              </li>
             </ul>
           </nav>
           <aside class="HolyGrail-ads">ads</aside>

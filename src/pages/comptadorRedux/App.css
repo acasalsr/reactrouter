@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.counter_container {
+  display: flex;
+  background-color: rgb(240, 240, 240);
+  width: 30rem;
+  height: auto;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: auto;
+  padding-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  flex-direction: column;
+}
+.counter_display {
+  display: flex;
+  width: 60%;
+  background-color: white;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+  box-shadow: inset 0 0 10px #b0b0b0;
+}
+
+.counter_wrapper-buttons {
+  margin-top: 2rem;
+}
+.counter_button {
+  height: 48px;
+  width: 48px;
+  margin: 1rem;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.counter_button-reset{
+  height: 3rem;
+  width: 8rem;
+  background-color: rgb(250, 134, 134);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
