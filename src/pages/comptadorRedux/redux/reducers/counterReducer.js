@@ -4,16 +4,22 @@ const initalState = {
 
 const counterReducer = (state = initalState, action) => {
   switch (action.type) {
-    case "INCREASE_COUNTER":
+    case "INCREASE_COUNTER": {
+      const count = state.count + action.payload;
+      if (count > 10) return state;
       return {
         ...state,
-        count: state.count + action.payload,
+        count,
       };
-    case "DECREASE_COUNTER":
+    }
+    case "DECREASE_COUNTER": {
+      const count = state.count - action.payload;
+      if (count < 0) return state;
       return {
         ...state,
-        count: state.count - action.payload,
+        count,
       };
+    }
     case "RESET":
       return {
         ...state,
